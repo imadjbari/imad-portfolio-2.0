@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imad Jbari | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9fafb; color: #111827; }
+    header { background: linear-gradient(to right, #1e3a8a, #2563eb); color: white; padding: 4rem 2rem; text-align: center; }
+    header img { width: 140px; border-radius: 50%; margin-bottom: 1.5rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.25rem; opacity: 0.9; }
+
+    nav { background: #ffffff; box-shadow: 0 2px 6px rgba(0,0,0,0.05); display: flex; justify-content: center; gap: 2rem; padding: 1rem; position: sticky; top: 0; z-index: 100; }
+    nav a { color: #1f2937; font-weight: 600; text-decoration: none; transition: color 0.2s; }
+    nav a:hover { color: #2563eb; }
+
+    section { max-width: 1100px; margin: 4rem auto; padding: 0 2rem; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; color: #1e3a8a; }
+    p, li { font-size: 1.1rem; line-height: 1.7; margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
+    .button { display: inline-block; background: #2563eb; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
+    .button:hover { background: #1e40af; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .card img { width: 100%; border-radius: 8px; margin-bottom: 1rem; }
+    footer { background: #1e3a8a; color: white; text-align: center; padding: 2rem; margin-top: 4rem; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Profile photo">
+    <h1>Imad Jbari</h1>
+    <p>Virtual Assistant | Data Analyst in Training</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Imad from Tangier, Morocco. I’ve worked as a teacher and tech support rep. Now I’m focused on virtual assistance and data analysis. I bring structure to teams, keep tasks organized, and get things done efficiently.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card"><ul><li>Time Management</li><li>Project Coordination</li><li>Data Entry</li></ul></div>
+      <div class="card"><ul><li>Communication</li><li>Research</li><li>Tech Support</li></ul></div>
+      <div class="card"><ul><li>Basic Data Cleaning</li><li>Admin Support</li><li>Notion & Google Workspace</li></ul></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?agriculture,tech" alt="AgroVision">
+        <h3>AgroVision</h3>
+        <p>Led a team to design an agriculture-focused data app. Managed tasks with Notion and contributed to UI feedback and data sourcing.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?virtual,workspace" alt="VA Simulations">
+        <h3>VA Simulations</h3>
+        <p>Completed multiple VA training scenarios, including calendar setup, email handling, and client communication workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Get a copy of my latest resume in PDF format.</p>
+    <a class="button" href="Imad_Jbari_Resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me via email or connect through LinkedIn.</p>
+    <p>Email: imadjbari369@gmail.com</p>
+    <p>Phone number : +212605780572</p
+    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/imadjbari/</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Imad Jbari — Built with HTML & CSS
+  </footer>
+
+</body>
+</html>
